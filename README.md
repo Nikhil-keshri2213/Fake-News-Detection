@@ -6,7 +6,7 @@ The script preprocesses the news text, vectorizes it, and then applies several c
 1. Introduction
 2. Features
 3. Requirements
-4.Installation
+4. Installation
 5. Usage
 6. Algorithms Used
 7. Results
