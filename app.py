@@ -42,28 +42,6 @@ def fake_news_det(news):
 def home():
     return render_template('index.html')
 
-# @app.route('/predict', methods=['POST'])
-# def predict():
-#     if request.method == 'POST':
-#         message = request.form['message']
-#         pred = fake_news_det(message)
-#         result = "Fake News" if pred[0] == 0 else "Real News"
-#         return render_template('index.html', prediction=result)
-#     else:
-#         return render_template('index.html', prediction="Something went wrong")
-    
-
-# @app.route('/predict', methods=['POST'])
-# def predict():
-#     try:
-#         message = request.form['message']
-#         pred = fake_news_det(message)
-#         result = "Fake News" if pred[0] == 0 else "Real News"
-#     except KeyError:
-#         result = "Error: No message provided in the form!"
-#     return render_template('index.html', prediction=result)
-
-
 @app.route('/predict', methods=['POST'])
 def predict():
     if request.method == 'POST':
@@ -79,4 +57,4 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0')
