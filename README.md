@@ -1,5 +1,4 @@
-![Image](![Screenshot 2024-12-31 012202](https://github.com/user-attachments/assets/8d32caf5-c059-48c8-a67b-0590f5d7c762)
-.png)
+![Screenshot 2024-12-31 012202](https://github.com/user-attachments/assets/758ccd94-3c75-4b5a-b4d3-8a3e715044ed).png)
 # Fake News Detection Using Machine Learning
 This project is designed to detect fake news using various machine learning algorithms. 
 The script preprocesses the news text, vectorizes it, and then applies several classifiers to predict whether the news is fake or true.
